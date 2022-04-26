@@ -1,0 +1,27 @@
+---
+title: "Reflections on teaching"
+format: 
+  revealjs:
+    theme: serif
+    incremental: true
+    slide-level: 3
+    toc: true
+    toc-depth: 2
+    toc-title: Outline
+    colorlinks: false
+    slide-number: c/t
+    include-after-body: skip-section.html
+    includes:
+      in_header: "mathjax-equation-numbers.html"
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+      buttons: false
+author:
+  - Nithin M 
+  - Senior Research Fellow 
+  - Department of Humanities and Social Sciences 
+  - Indian Institute of Technology Kharagpur
+engine: knitr
+---
+# Background

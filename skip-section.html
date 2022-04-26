@@ -1,0 +1,17 @@
+<script>
+  Reveal.on( 'slidechanged', event => {
+    if (event.currentSlide.className.includes("title-slide")) {
+      var prev_ind = Reveal.getIndices(event.previousSlide)
+      console.log(prev_ind)
+      var cur_ind = Reveal.getIndices(event.currentSlide)
+      console.log(cur_ind)
+      if (cur_ind.h == prev_ind.h && cur_ind.v < prev_ind.v) {
+        console.log("Previous")
+        Reveal.prev()
+      } else {
+        console.log("Next")
+        Reveal.next()
+      }
+    }
+} );
+</script>
