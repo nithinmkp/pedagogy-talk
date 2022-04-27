@@ -10,9 +10,6 @@ format:
     toc-title: Outline
     colorlinks: false
     slide-number: c/t
-    include-after-body: skip-section.html
-    includes:
-      in_header: "mathjax-equation-numbers.html"
     chalkboard:
       theme: whiteboard
       boardmarker-width: 5
@@ -24,4 +21,16 @@ author:
   - Indian Institute of Technology Kharagpur
 engine: knitr
 ---
-# Background
+# Background and Experiences
+## Background
+## Experiences
+
+# Thoughts on Teaching
+## Teaching Economics
+
+## Challenges
+## Why teaching
+
+## Approach to teaching
+
+## Why APU
